@@ -1,55 +1,56 @@
 body {
   text-align: center;
-background-color: rgb(255, 247, 176);
+  background-color: rgb(255, 247, 176);
 }
 
-.header{
+.header {
   padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.MuiFormLabel-root{
-  color: red !important;
-}
 
-.MuiFormLabel-root:focus{
+
+.MuiFormLabel-root:focus {
   color: Green !important;
 }
-.addicon{
+
+.addicon {
   color: green;
   font-size: 25px;
   margin-left: 10px;
   cursor: pointer;
 }
 
-.eachitems{
+.eachitems {
   display: flex;
   justify-content: space-around;
-margin: 10px 0;
+  margin: 10px 0;
 }
-.eachitems span{
+
+.eachitems span {
   font-weight: 700;
-  
+
 }
-.Deleteicon{
+
+.Deleteicon {
   color: rgb(0, 128, 255);
   font-size: 25px;
   cursor: pointer;
 }
 
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+.css-i44wyl {
   width: 50%;
 }
 
-.css-180lf2n-MuiButtonBase-root-MuiButton-root {
+.css-1h48b3 {
   width: 50%;
-  color: #ffffff !important;
   background-color: black !important;
+  color: #ffffff !important;
   border: none !important;
 }
 
-.css-180lf2n-MuiButtonBase-root-MuiButton-root:hover{
+.css-1h48b3:hover {
   border: none !important;
   background-color: rgb(72, 71, 71) !important;
 }
