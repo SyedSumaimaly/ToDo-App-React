@@ -1,15 +1,26 @@
 body {
   text-align: center;
-  background-color: rgb(255, 247, 176);
+  background-color: #333;
 }
 
 .header {
   padding: 20px 0;
+  margin: 0 auto;
   display: flex;
+  width: 100%;
+  /* background-color: red ; */
   align-items: center;
   justify-content: center;
 }
 
+
+
+.basic{
+  /* background-color: red; */
+  width: 65%;
+  border-bottom: 1px solid black;
+  /* color: white !important; */
+}
 
 .MuiFormLabel-root:focus {
   color: Green !important;
@@ -22,21 +33,71 @@ body {
   cursor: pointer;
 }
 
+.todoitems {
+  /* background-color: bisque; */
+  margin: 0 auto;
+  width: 60%;
+}
 .eachitems {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  margin: 10px 0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
 }
 
-.eachitems span {
-  font-weight: 700;
+.eachitems_sub{
+  width: 80%;
+}
 
+.eachitems_sub > p{
+ word-wrap: break-word;
+ text-align: left;
+ padding-left: 10px;
+
+}
+
+.icons {
+  /* background-color: #090e09; */
+  display: flex;
+  width: 20%;
+  margin-right: 5px;
+  justify-content: space-between;
+  height: fit-content;
+  /* padding: 10px; */
 }
 
 .Deleteicon {
-  color: rgb(0, 128, 255);
+  color: #c4361d;
   font-size: 25px;
   cursor: pointer;
+}
+
+.Done {
+  color: #088108;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.Edit {
+  color: #0080ff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.eachitems > li {
+  list-style: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.disabled {
+  pointer-events: none;
 }
 
 .css-i44wyl {
